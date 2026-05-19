@@ -29,6 +29,58 @@ A modern, multi-page website for **On Time Home Cleaning Service** — a profess
 
 <br>
 
+## 🛠️ Project Structure
+
+```
+on-time-home-cleaning/
+│
+├── index.html                  # Home page (entry point)
+├── favicon.svg                 # Custom SVG favicon
+├── robots.txt                  # Search engine crawl rules
+├── sitemap.xml                 # SEO sitemap
+├── LICENSE                     # License
+├── README.md                   # Documentation
+│
+├── pages/                      # Inner pages
+│   ├── about.html              # About us
+│   ├── services.html           # Service details
+│   ├── pricing.html            # Pricing packages
+│   ├── gallery.html            # Work gallery
+│   └── contact.html            # Contact form & info
+│
+└── assets/                     # Static assets
+    ├── css/
+    │   ├── style.css           # Main stylesheet (variables, layout, components)
+    │   └── animations.css      # Scroll reveal & hover animations
+    │
+    ├── js/
+    │   └── main.js             # Interactive features (menu, slider, FAQ, counters)
+    │
+    └── images/
+        ├── gallery/            # Cleaning project photos
+        │   ├── bathroom-after-cleaning.jpeg
+        │   ├── bedroom-after-cleaning.jpeg
+        │   ├── corridor-after-cleaning.jpeg
+        │   ├── drawing-room-after-cleaning.jpeg
+        │   ├── drawing-room-cleaning-wip.jpeg
+        │   ├── hall-after-cleaning.jpeg
+        │   ├── hall-2-after-cleaning.jpeg
+        │   ├── hall-3-after-cleaning.jpeg
+        │   ├── hand-wash-after-cleaning.jpeg
+        │   ├── kitchen-after-cleaning.jpeg
+        │   ├── balcony-cleaning-wip.jpeg
+        │   ├── refrigerator-after-cleaning.jpeg
+        │   ├── room-after-cleaning.jpeg
+        │   ├── scrubber-machine-cleaning.jpeg
+        │   ├── sofa-set-after-cleaning.jpeg
+        │   └── workstation-after-cleaning.jpeg
+        │
+        └── team/               # Team photos
+            └── team.jpeg
+```
+
+<br>
+
 ## 🏠 Services We Offer
 
 | Service | Description |
@@ -46,62 +98,35 @@ A modern, multi-page website for **On Time Home Cleaning Service** — a profess
 
 | Page | Description |
 |------|-------------|
-| [🏠 Home](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/) | Hero, services overview, testimonials, FAQ |
-| [ℹ️ About](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/about.html) | Our story, team & values |
-| [🧹 Services](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/services.html) | Detailed service descriptions |
-| [💰 Pricing](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/pricing.html) | Transparent pricing packages |
-| [📸 Gallery](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/gallery.html) | Real work photos & results |
-| [📞 Contact](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/contact.html) | Contact form, map & info |
+| [🏠 Home](index.html) | Hero, services overview, testimonials, FAQ |
+| [ℹ️ About](pages/about.html) | Our story, team & values |
+| [🧹 Services](pages/services.html) | Detailed service descriptions |
+| [💰 Pricing](pages/pricing.html) | Transparent pricing packages |
+| [📸 Gallery](pages/gallery.html) | Real work photos & results |
+| [📞 Contact](pages/contact.html) | Contact form, map & info |
 
 <br>
 
 ## 🚀 Features
 
-```
-✅ Multi-page responsive website
-✅ Smooth scroll animations & reveal effects
-✅ Animated hero with particle effects
-✅ Counter animation for stats
-✅ Testimonial slider
-✅ FAQ accordion
-✅ Mobile hamburger menu
-✅ Floating WhatsApp button
-✅ Google Maps integration
-✅ SEO meta tags & structured data
-✅ Google Search Console verified
-✅ Sitemap.xml & robots.txt
-✅ Custom SVG favicon
-✅ Real project photos gallery
-```
-
-<br>
-
-## 🛠️ Tech Stack
-
-```
-📁 Project Structure
-├── index.html          # Home page
-├── about.html          # About page
-├── services.html       # Services page
-├── pricing.html        # Pricing page
-├── gallery.html        # Gallery page
-├── contact.html        # Contact page
-├── favicon.svg         # Custom favicon
-├── sitemap.xml         # SEO sitemap
-├── robots.txt          # Search engine rules
-├── css/
-│   ├── style.css       # Main styles
-│   └── animations.css  # Scroll & hover animations
-├── js/
-│   └── main.js         # Interactive features
-└── images/             # Real project photos
-```
+- Multi-page responsive website (mobile-first)
+- Smooth scroll animations & reveal effects
+- Animated hero with particle effects
+- Counter animation for stats
+- Testimonial slider with navigation
+- FAQ accordion
+- Mobile hamburger menu
+- Floating WhatsApp button
+- Google Maps integration
+- SEO meta tags & Schema.org structured data
+- Google Search Console verified
+- Sitemap.xml & robots.txt
+- Custom SVG favicon
+- Real project photos gallery
 
 <br>
 
 ## 📞 Contact
-
-<div align="center">
 
 | | |
 |---|---|
@@ -109,8 +134,6 @@ A modern, multi-page website for **On Time Home Cleaning Service** — a profess
 | 📧 **Email** | nathashish118@gmail.com |
 | 📍 **Location** | Nanakramguda, Hyderabad, Telangana 500032 |
 | 🌐 **Website** | [dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/) |
-
-</div>
 
 <br>
 
