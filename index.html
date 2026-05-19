@@ -53,6 +53,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Splash Screen -->
+    <div class="splash-screen" id="splashScreen" role="dialog" aria-label="Welcome">
+        <div class="splash-content">
+            <div class="splash-video-wrap">
+                <video id="splashVideo" muted playsinline preload="auto" poster="assets/images/branding/transparent_logo.png">
+                    <source src="assets/images/branding/brand_intro.mp4" type="video/mp4">
+                </video>
+                <div class="splash-loader" id="splashLoader">
+                    <div class="splash-loader-spinner"></div>
+                </div>
+            </div>
+            <p class="splash-tagline">Welcome to <strong>New Gen Cleaning Services</strong></p>
+            <div class="splash-progress"><div class="splash-progress-bar" id="splashProgress"></div></div>
+        </div>
+        <button class="splash-skip" id="splashSkip" type="button" aria-label="Skip intro">
+            Skip Intro <i class="fas fa-forward"></i>
+        </button>
+    </div>
+
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
@@ -344,6 +363,70 @@
         <i class="fab fa-whatsapp"></i>
     </a>
 
+    <script>
+        // ===== SPLASH SCREEN =====
+        (function() {
+            const splash = document.getElementById('splashScreen');
+            const video = document.getElementById('splashVideo');
+            const loader = document.getElementById('splashLoader');
+            const skipBtn = document.getElementById('splashSkip');
+            const progress = document.getElementById('splashProgress');
+
+            // Show only on first visit per session
+            if (sessionStorage.getItem('splashSeen') === '1') {
+                splash.remove();
+                return;
+            }
+
+            document.body.classList.add('splash-active');
+
+            const MAX_DURATION = 5000; // hard cap so users never wait too long
+            const SKIP_VISIBLE_AFTER = 1200;
+            let dismissed = false;
+
+            function dismiss() {
+                if (dismissed) return;
+                dismissed = true;
+                sessionStorage.setItem('splashSeen', '1');
+                splash.classList.add('hidden');
+                document.body.classList.remove('splash-active');
+                setTimeout(() => splash.remove(), 800);
+            }
+
+            // Hide loader once video has enough data
+            video.addEventListener('loadeddata', () => loader.classList.add('hidden'));
+
+            // Try to play; if blocked, just dismiss after a short delay
+            const playPromise = video.play();
+            if (playPromise !== undefined) {
+                playPromise.catch(() => {
+                    setTimeout(dismiss, 1500);
+                });
+            }
+
+            // Animate progress bar based on video time
+            video.addEventListener('timeupdate', () => {
+                if (video.duration && isFinite(video.duration)) {
+                    progress.style.width = (video.currentTime / video.duration * 100) + '%';
+                }
+            });
+
+            // Dismiss when video finishes
+            video.addEventListener('ended', dismiss);
+
+            // Hard cap fallback
+            const hardCap = setTimeout(dismiss, MAX_DURATION);
+
+            // Reveal skip button after a moment
+            setTimeout(() => skipBtn.classList.add('visible'), SKIP_VISIBLE_AFTER);
+
+            // Skip on click or Escape
+            skipBtn.addEventListener('click', () => { clearTimeout(hardCap); dismiss(); });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && !dismissed) { clearTimeout(hardCap); dismiss(); }
+            });
+        })();
+    </script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
