@@ -1,18 +1,18 @@
 <div align="center">
 
-# 🧹 On Time Home Cleaning Service
+# 🧹 New Gen Cleaning Services
 
 ### *Professional Cleaning Services in Hyderabad*
 
-[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-0d9488?style=for-the-badge)](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/)
-[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-222?style=for-the-badge&logo=github)](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/)
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-1b3a6b?style=for-the-badge)](https://dream-debugger-dev.github.io/New-Gen-Cleaning-Services/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-222?style=for-the-badge&logo=github)](https://dream-debugger-dev.github.io/New-Gen-Cleaning-Services/)
 
 <br>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-<img src="https://img.shields.io/badge/Responsive-Mobile_First-0d9488?style=flat-square" alt="Responsive">
+<img src="https://img.shields.io/badge/Responsive-Mobile_First-1b3a6b?style=flat-square" alt="Responsive">
 <img src="https://img.shields.io/badge/SEO-Optimized-green?style=flat-square" alt="SEO">
 
 ---
@@ -25,17 +25,16 @@
 
 ## ✨ About
 
-A modern, multi-page website for **On Time Home Cleaning Service** — a professional cleaning company based in Hyderabad, Telangana. Built with pure HTML, CSS & JavaScript with smooth animations, mobile-first responsive design, and SEO optimization.
+A modern, multi-page website for **New Gen Cleaning Services** — a professional cleaning company based in Hyderabad, Telangana. Built with pure HTML, CSS & JavaScript with smooth animations, mobile-first responsive design, and SEO optimization.
 
 <br>
 
 ## 🛠️ Project Structure
 
 ```
-on-time-home-cleaning/
+New-Gen-Cleaning-Services/
 │
 ├── index.html                  # Home page (entry point)
-├── favicon.svg                 # Custom SVG favicon
 ├── robots.txt                  # Search engine crawl rules
 ├── sitemap.xml                 # SEO sitemap
 ├── LICENSE                     # License
@@ -50,30 +49,22 @@ on-time-home-cleaning/
 │
 └── assets/                     # Static assets
     ├── css/
-    │   ├── style.css           # Main stylesheet (variables, layout, components)
+    │   ├── style.css           # Main stylesheet
     │   └── animations.css      # Scroll reveal & hover animations
     │
     ├── js/
-    │   └── main.js             # Interactive features (menu, slider, FAQ, counters)
+    │   └── main.js             # Interactive features
     │
     └── images/
+        ├── branding/           # Logo, favicon, brand assets
+        │   ├── main_Logo.png
+        │   ├── landscape_logo.png
+        │   ├── favicon.png
+        │   ├── full_branding_with_details.png
+        │   └── brand_intro.mp4
+        │
         ├── gallery/            # Cleaning project photos
-        │   ├── bathroom-after-cleaning.jpeg
-        │   ├── bedroom-after-cleaning.jpeg
-        │   ├── corridor-after-cleaning.jpeg
-        │   ├── drawing-room-after-cleaning.jpeg
-        │   ├── drawing-room-cleaning-wip.jpeg
-        │   ├── hall-after-cleaning.jpeg
-        │   ├── hall-2-after-cleaning.jpeg
-        │   ├── hall-3-after-cleaning.jpeg
-        │   ├── hand-wash-after-cleaning.jpeg
-        │   ├── kitchen-after-cleaning.jpeg
-        │   ├── balcony-cleaning-wip.jpeg
-        │   ├── refrigerator-after-cleaning.jpeg
-        │   ├── room-after-cleaning.jpeg
-        │   ├── scrubber-machine-cleaning.jpeg
-        │   ├── sofa-set-after-cleaning.jpeg
-        │   └── workstation-after-cleaning.jpeg
+        │   └── (16 project photos)
         │
         └── team/               # Team photos
             └── team.jpeg
@@ -94,19 +85,6 @@ on-time-home-cleaning/
 
 <br>
 
-## 📄 Pages
-
-| Page | Description |
-|------|-------------|
-| [🏠 Home](index.html) | Hero, services overview, testimonials, FAQ |
-| [ℹ️ About](pages/about.html) | Our story, team & values |
-| [🧹 Services](pages/services.html) | Detailed service descriptions |
-| [💰 Pricing](pages/pricing.html) | Transparent pricing packages |
-| [📸 Gallery](pages/gallery.html) | Real work photos & results |
-| [📞 Contact](pages/contact.html) | Contact form, map & info |
-
-<br>
-
 ## 🚀 Features
 
 - Multi-page responsive website (mobile-first)
@@ -121,7 +99,7 @@ on-time-home-cleaning/
 - SEO meta tags & Schema.org structured data
 - Google Search Console verified
 - Sitemap.xml & robots.txt
-- Custom SVG favicon
+- Custom brand logo & favicon
 - Real project photos gallery
 
 <br>
@@ -133,7 +111,7 @@ on-time-home-cleaning/
 | 📱 **Phone / WhatsApp** | [9080036792](tel:9080036792) |
 | 📧 **Email** | nathashish118@gmail.com |
 | 📍 **Location** | Nanakramguda, Hyderabad, Telangana 500032 |
-| 🌐 **Website** | [dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service](https://dream-debugger-dev.github.io/On-Time-Home-Cleaning-Service/) |
+| 🌐 **Website** | [dream-debugger-dev.github.io/New-Gen-Cleaning-Services](https://dream-debugger-dev.github.io/New-Gen-Cleaning-Services/) |
 
 <br>
 
