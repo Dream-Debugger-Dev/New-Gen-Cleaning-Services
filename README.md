@@ -4,8 +4,8 @@
 
 ### *Professional Cleaning Services in Hyderabad*
 
-[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-1b3a6b?style=for-the-badge)](https://dream-debugger-dev.github.io/New-Gen-Cleaning-Services/)
-[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-222?style=for-the-badge&logo=github)](https://dream-debugger-dev.github.io/New-Gen-Cleaning-Services/)
+[![Live Website](https://img.shields.io/badge/🌐_Live_Website-Visit_Now-1b3a6b?style=for-the-badge)](https://newgencleaningservices.com/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted_on-GitHub_Pages-222?style=for-the-badge&logo=github)](https://newgencleaningservices.com/)
 
 <br>
 
@@ -111,7 +111,7 @@ New-Gen-Cleaning-Services/
 | 📱 **Phone / WhatsApp** | [8309882924](tel:8309882924) |
 | 📧 **Email** | nathashish118@gmail.com |
 | 📍 **Location** | Nanakramguda, Hyderabad, Telangana 500032 |
-| 🌐 **Website** | [dream-debugger-dev.github.io/New-Gen-Cleaning-Services](https://dream-debugger-dev.github.io/New-Gen-Cleaning-Services/) |
+| 🌐 **Website** | [newgencleaningservices.com](https://newgencleaningservices.com/) |
 
 <br>
 
