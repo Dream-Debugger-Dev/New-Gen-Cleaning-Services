@@ -109,7 +109,7 @@ New-Gen-Cleaning-Services/
 | | |
 |---|---|
 | 📱 **Phone / WhatsApp** | [8309882924](tel:8309882924) |
-| 📧 **Email** | nathashish118@gmail.com |
+| 📧 **Email** | newgencleaningservices1@gmail.com |
 | 📍 **Location** | Nanakramguda, Hyderabad, Telangana 500032 |
 | 🌐 **Website** | [newgencleaningservices.com](https://newgencleaningservices.com/) |
 
